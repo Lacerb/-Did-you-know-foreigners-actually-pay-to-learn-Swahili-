@@ -1,58 +1,119 @@
-# Starlight Starter Kit: Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+<title>Earn 2K–4K Daily Teaching Swahili Online</title>
 
-```
-npm create astro@latest -- --template starlight
-```
+<meta name="description" content="Learn how people are earning 2,000–4,000 KES per day chatting with foreigners and teaching them Swahili online. No experience needed.">
 
-<!-- ASTRO:REMOVE:START -->
+<style>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
 
-<!-- ASTRO:REMOVE:END -->
+.hero{
+background:#0f172a;
+color:white;
+padding:60px 20px;
+}
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+.hero h1{
+font-size:32px;
+margin-bottom:10px;
+}
 
-## 🚀 Project Structure
+.hero p{
+font-size:18px;
+opacity:0.9;
+}
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+.container{
+padding:40px 20px;
+max-width:700px;
+margin:auto;
+}
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+.box{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+button{
+background:#16a34a;
+color:white;
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+button:hover{
+background:#15803d;
+}
 
-Static assets, like favicons, can be placed in the `public/` directory.
+.counter{
+font-size:30px;
+color:#16a34a;
+font-weight:bold;
+}
 
-## 🧞 Commands
+</style>
+</head>
 
-All commands are run from the root of the project, from a terminal:
+<body>
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+<div class="hero">
 
-## 👀 Want to learn more?
+<h1>Earn 2,000 – 4,000 KES Per Day</h1>
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+<p>Just by chatting with foreigners and teaching them simple Swahili</p>
+
+</div>
+
+<div class="container">
+
+<div class="box">
+
+<h2>No Experience Needed</h2>
+
+<p>You simply chat with foreigners who want to learn Swahili.  
+Many people are already earning daily using this simple method.</p>
+
+</div>
+
+<div class="box">
+
+<h2>People Already Earning</h2>
+
+<div class="counter" id="earn">1,042,678+</div>
+
+<p>Users already making money teaching Swahili online.</p>
+
+</div>
+
+<div class="box">
+
+<h2>Start Now</h2>
+
+<p>Click the button below to access the direct link and start today.</p>
+
+<a href="https://whatsapp.com/channel/0029Vb7f9n4LSmbiyVG6cc3h">
+<button>Get Started Now</button>
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
